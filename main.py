@@ -2,7 +2,7 @@ import os
 from tqdm import tqdm
 from data_manager import DataManager
 from processor import Processor
-from utils import YEAR, AGGREGATED_FILE, load_life_expectancy_data, measures, DATA_FOLDER
+from utils import YEAR, AGGREGATED_FILE, load_life_expectancy_data, measures, DATA_FOLDER,process_file
 
 def main():
     # Load life expectancy benchmarks
